@@ -5,5 +5,10 @@ public class Vote {
         this.voter = voter;
         this.date = date;
     }
-
+    public Person getVoter() {
+        return voter;
+    }
+    public String getDate() {
+        return date;
+    }
 }
