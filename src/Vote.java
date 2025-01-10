@@ -14,15 +14,5 @@ public class Vote {
         return date;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Vote vote)) return false;
-        return Objects.equals(voter, vote.voter) && Objects.equals(date, vote.date);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(voter, date);
-    }
 }
