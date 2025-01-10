@@ -11,4 +11,5 @@ public class Vote {
     public String getDate() {
         return date;
     }
+
 }
