@@ -105,7 +105,5 @@ public class Main {
         votingSystem.printVoters(1);
         System.out.println("################################################################################");
 
-
-
     }
 }
